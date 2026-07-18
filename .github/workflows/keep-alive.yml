@@ -1,0 +1,16 @@
+name: Keep-alive Supabase
+
+on:
+  schedule:
+    - cron: '0 12 * * *' # todo dia, 12:00 UTC
+  workflow_dispatch: # permite rodar manualmente tambem, pra testar
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Chamar endpoint de health
+        run: |
+          curl -sf -X POST "https://SEU-PROJETO.supabase.co/functions/v1/assistente-xianyu" \
+            -H "Content-Type: application/json" \
+            -d '{"action":"health"}'
