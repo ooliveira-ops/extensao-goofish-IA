@@ -10,7 +10,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Chamar endpoint de health
+        env:
+          SUPABASE_FUNCTION_URL: ${{ secrets.SUPABASE_FUNCTION_URL }}
         run: |
-          curl -sf -X POST "https://SEU-PROJETO.supabase.co/functions/v1/assistente-xianyu" \
+          curl -sf -X POST "$SUPABASE_FUNCTION_URL" \
             -H "Content-Type: application/json" \
             -d '{"action":"health"}'

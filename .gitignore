@@ -1,0 +1,10 @@
+# Arquivos de implementação real da extensão — não são divulgados no
+# repositório. Content.js contém CONFIG_SUPABASE.functionUrl (a URL da Edge
+# Function, que não tem trava de autenticação); manifest.json e a pasta
+# supabase/functions/ (se existir localmente) completam o pacote que só
+# roda localmente, carregado direto no Chrome. O repositório público mostra
+# só o README.
+Content.js
+content.js
+manifest.json
+supabase/
