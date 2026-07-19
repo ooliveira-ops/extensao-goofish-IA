@@ -30,4 +30,4 @@ Não é um produto público, não tem distribuição na Chrome Web Store e não 
 
 ## 🔒 Por que o código não está aqui
 
-Como é uma ferramenta de uso estritamente pessoal, os arquivos de implementação (incluindo a URL do backend) ficam fora do controle de versão público por precaução — mesmo o repositório sendo privado no momento, essa separação evita qualquer exposição acidental caso isso mude no futuro.
+Como é uma ferramenta de uso estritamente pessoal, os arquivos de implementação (incluindo a URL do backend) ficam fora do controle de versão público por precaução, evitando qualquer exposição acidental.
