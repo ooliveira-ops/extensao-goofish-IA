@@ -1,6 +1,6 @@
 # 🐟 Assistente Xianyu
 
-> [!NOTE]
+> [!IMPORTANT]
 > ⚠️ **Nota:** este repositório é uma vitrine do projeto — o código de
 > implementação real (`Content.js`, `manifest.json`, a lógica da Edge
 > Function em `supabase/functions/`, etc.) foi ocultado por privacidade e
